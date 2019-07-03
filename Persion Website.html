@@ -30,12 +30,13 @@
 				margin-top: 5%; */
 				color: white;
 				font-family: "century gothic",sans-serif;
+				margin: 0 auto;
 			}
 			
 			.box-img{
 				border-radius: 50%;
-				width: 200px;
-				height: 200px;
+				width: 50%;
+				height: 50%;
 			}
 			
 			.box h1{
@@ -51,7 +52,7 @@
 			}
 			
 			.box p{
-				text-align: justify;
+				text-align: center;
 			}
 			
 			ul{
@@ -68,15 +69,40 @@
 			.box li a{
 				color: white;
 				text-decoration: none;
-				font-size: 60px;
+				font-size: 3.75rem;
 				transition: all ease-in-out 250ms;
 			}
 			
 			.box li a:hover{
 				color: black;
 			}
+		
+			@media screen and (max-width:1200px) {
+				.box{
+					width: 40%;
+					margin:  110px;
+				}
+			}
+			@media screen and (max-width:992px){
+				.box{
+					width: 50%;
+					margin: 30px;
+				}
+			}	
 			
-			
+			@media screen and (max-width: 448px){
+				.box li{
+					display: block;
+				}
+			}
+				.
+			@media screen and (max-width:768px) {
+				.box{
+					width: 60%;
+					margin:  20px;			
+				}
+				
+			}
 		</style>
 		
 	</head>
